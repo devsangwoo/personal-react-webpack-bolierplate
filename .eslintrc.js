@@ -5,7 +5,12 @@ module.exports = {
     'eslint-config-airbnb-base',
     'eslint:recommended',
     'plugin:react/recommended',
+  
     'plugin:prettier/recommended'
+   
+  ],
+  "plugins": [
+    "json-format"
   ],
   env: {
     browser: true

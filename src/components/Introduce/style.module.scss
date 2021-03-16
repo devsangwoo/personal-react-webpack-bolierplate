@@ -1,0 +1,76 @@
+.introduce {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+
+  & .titleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .logo{
+    flex:1;
+    width:  120px;
+    height: 100px;
+  }
+
+  & .nameWrapper {
+    padding: 24px;
+  }
+
+  & .title1 {
+    font-size: 1.5rem;
+  }
+
+  & .title2 {
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  & .title3 {
+    font-size: 1rem;
+
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  & .descriptions {
+    margin-top: 12px;
+    margin-bottom: 24px;
+
+    & .description {
+      margin: 0;
+      margin-left: 20px;
+    margin-bottom: 8px;
+    }
+  }
+
+  & .iconWrap {
+    display: flex;
+    align-items: center;
+
+    & .link {
+      width: 24px;
+      height: 24px;
+      box-sizing: border-box;
+
+      margin-right: 12px;
+    }
+
+    & .link2 {
+      width: 28px;
+      height: 28px;
+      box-sizing: border-box;
+
+      margin-right: 12px;
+    }
+
+    & .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

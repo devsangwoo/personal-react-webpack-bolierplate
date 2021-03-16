@@ -1,10 +1,9 @@
-# React Quick Start
+# React Based Resume
 
-A simple react quick start
-when you dont want to use create-react-app
-
-## Usage
-
+Tech Stack
+```
+React(hooks), CSS Modules, Webpack
+```
 ### Install dependencies
 
 ```

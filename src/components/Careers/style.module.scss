@@ -1,0 +1,320 @@
+.careers {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+
+  & .career {
+    li {
+      line-height: 2.0;
+      list-style-type: none;
+    }
+    
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+
+    & .headerWrapper {
+      & .intro {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+
+        & > .title {
+          font-size: 1.7rem;
+          font-weight: 400;
+          margin-bottom: 24px;
+        }
+
+        & > .department {
+          font-size: 1.2rem;
+        }
+
+        & > .position {
+          font-size: 1rem;
+        }
+      }
+
+      & .date {
+        margin-bottom: 16px;
+
+        & > .start {
+          margin-right: 0.3rem;
+          color: #888;
+        }
+
+        & > .end {
+          color: #888;
+        }
+      }
+
+      & .descriptions {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+
+        & > .description {
+          color: #666;
+        }
+      }
+    }
+
+    & .projects {
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      padding-left: 12px;
+      border-left: 4px solid #2a363b;
+
+      & .project {
+        & > .title {
+          font-weight: 400;
+          display: block;
+          font-size: 1.2rem;
+          margin-bottom: 6px;
+        }
+
+        & > .wrap {
+          & > .descriptions {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 16px;
+
+            & > .description {
+            }
+          }
+
+          & > .date {
+            & > .start {
+              margin-right: 0.3rem;
+              color: #888;
+            }
+
+            & > .end {
+              color: #888;
+            }
+          }
+        }
+
+        & > .whiches {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 16px;
+
+          & .which {
+            color: #666;
+          }
+        }
+
+        & > .techStacks {
+          display: flex;
+          flex-wrap: wrap;
+
+          & > .techStack {
+            background-color: #3b5998;
+            color: #fff;
+            padding: 6px 10px 6px 10px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            margin-right: 8px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    
+
+    & .details {
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      padding-left: 12px;
+      border-left: 4px solid #2a363b;
+   
+
+      & .project {
+        & > .title {
+          font-weight: 400;
+          display: block;
+          font-size: 1.2rem;
+          margin-bottom: 6px;
+        }
+
+        & > .wrap {
+          & > .descriptions {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 16px;
+
+            & > .description {
+            }
+          }
+
+          & > .date {
+            & > .start {
+              margin-right: 0.3rem;
+              color: #888;
+            }
+
+            & > .end {
+              color: #888;
+            }
+          }
+        }
+
+        & > .whiches {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 16px;
+
+          & .which {
+            color: #666;
+          }
+        }
+
+        & > .techStacks {
+          display: flex;
+          flex-wrap: wrap;
+
+          & > .techStack {
+            background-color: #3b5998;
+            color: #fff;
+            padding: 6px 10px 6px 10px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            margin-right: 8px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .careers {
+    padding: 36px 24px 36px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .careers {
+    & .career {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      & .headerWrapper {
+        flex: 1;
+
+        & .intro {
+          margin-bottom: 0;
+          font-size: 6px;
+        }
+
+        & .date {
+          margin-bottom: 24px;
+        }
+
+        & .descriptions {
+          & .description {
+            margin-bottom: 12px;
+            font-size: 0.9rem;
+          }
+        }
+      }
+
+      & .projects {
+        padding-left: 48px;
+        
+        flex: 2;
+        border-left: none;
+
+        & .project {
+          & > .title {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+          }
+
+          & > .wrap {
+            display: flex;
+            flex-direction: column-reverse;
+
+            & > .descriptions {
+              & > .description {
+                font-size: 0.9rem;
+              }
+            }
+
+            & > .date {
+              font-size: 0.9rem;
+              margin-bottom: 12px;
+            }
+          }
+
+          & > .whiches {
+            margin-bottom: 24px;
+
+            & > .which {
+              font-size: 0.9rem;
+            }
+          }
+
+          & > .techStacks {
+            & > .techStack {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+
+      & .details {
+     
+        padding: 48px;
+        padding-top: 84px;
+        flex: 2;
+        border-left: none;
+
+        & .project {
+          & > .title {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+          }
+
+          & > .wrap {
+            display: flex;
+            flex-direction: column-reverse;
+
+            & > .descriptions {
+              & > .description {
+                font-size: 0.9rem;
+              }
+            }
+
+            & > .date {
+              font-size: 0.9rem;
+              margin-bottom: 12px;
+            }
+          }
+
+          & > .whiches {
+            margin-bottom: 24px;
+
+            & > .which {
+              font-size: 0.9rem;
+            }
+          }
+
+          & > .techStacks {
+            & > .techStack {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
