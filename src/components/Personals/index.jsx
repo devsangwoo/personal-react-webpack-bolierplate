@@ -14,14 +14,33 @@ const Personals = ({ className }) => {
 
   const Description = ({ title, subTitle }) => (
     <ul key={title} className={styles.description}>
-      <li className={styles.title}>{title}</li>
-      <div className={styles.subTitles}>
-        {subTitle.map((st, index) => (
-          <span className={styles.subTitle} key={`subtitle-${index}`}>
-            {st}
-          </span>
-        ))}
-      </div>
+      {title.length > 1 ? (
+        <>
+          <div className={styles.title}>{title[0]}</div>
+          <div className={styles.title}>{title[1]}</div>
+        </>
+      ) : (
+        <li className={styles.title}>{title}</li>
+      )}
+
+      {subTitle.length > 1 ? (
+        <>
+          <div className={styles.subTitles}>
+            <span className={styles.subTitle}>{subTitle[0]}</span>
+          </div>
+          <div className={styles.subTitles}>
+            <span className={styles.subTitle}>{subTitle[1]}</span>
+          </div>
+        </>
+      ) : (
+        subTitle.map((st, index) => (
+          <div key={st} className={styles.subTitles}>
+            <span className={styles.subTitle} key={`subtitle-${index}`}>
+              {st}
+            </span>
+          </div>
+        ))
+      )}
     </ul>
   );
 

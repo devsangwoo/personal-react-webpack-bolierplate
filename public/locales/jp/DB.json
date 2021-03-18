@@ -444,15 +444,56 @@
     ]
   },
   "personals": {
-    "title": "プロジェクト & 勉強会",
+    "title": "勉強会 & プロジェクト",
     "list": [
       {
         "title": "",
         "descriptions": [
           {
-            "title": "週末や平日の午後時間を利用してプロジェクト参加や勉強会を通じて多方面の人とコミュニケーションをしての成長に向けて努力しています。",
+            "title": [
+              "週末や平日の午後時間を利用してプロジェクト参加や勉強会を通じて",
+              "多方面の人とコミュニケーションをしての成長に向けて努力しています。"
+            ],
             "subTitle": [
               ""
+            ]
+          }
+        ]
+      },
+      {
+        "title": "勉強会",
+        "descriptions": [
+          {
+            "title": [
+              "SpringBoot 勉強会"
+            ],
+            "subTitle": [
+              "SpringBootを利用したRestAPI設計",
+              "Springアプリケーションコンテキストやコンポーネントスキャンの理解"
+            ]
+          },
+          {
+            "title": [
+              "React & Node 勉強会"
+            ],
+            "subTitle": [
+              "React, Redux, GraphQL(apollo), NodeJS(expressJs), CSS in JS(emotion, styled-components), NoSQL(mongoDB), Docker 使用"
+            ]
+          },
+          {
+            "title": [
+              "Markup 勉強会"
+            ],
+            "subTitle": [
+              "BEM, SCSS, Webpack 使用"
+            ]
+          },
+          {
+            "title": [
+              "アルゴリズム 勉強会"
+            ],
+            "subTitle": [
+              "python3, Javascript 使用"
             ]
           }
         ]
@@ -461,7 +502,9 @@
         "title": "SPA基盤反応型の履歴書ページ制作",
         "descriptions": [
           {
-            "title": "履歴書管理のためにライブラリ依存性が少ないReact基盤の自分の履歴書ページを製作しました。",
+            "title": [
+              "履歴書管理のためにライブラリ依存性が少ないReact基盤の自分の履歴書ページを製作しました。"
+            ],
             "subTitle": [
               "React, Sass, CSS Modules"
             ]
@@ -472,7 +515,9 @@
         "title": "コミュニティサイト",
         "descriptions": [
           {
-            "title": "週末を通じてコミュニティサイト製作に貢献しました。",
+            "title": [
+              "週末を通じてコミュニティサイト製作に貢献しました。"
+            ],
             "subTitle": [
               "React、GraphQL、NestJsベースのプロジェクト構成"
             ]
@@ -483,7 +528,9 @@
         "title": "ハイブリッド運動MOBILE APP",
         "descriptions": [
           {
-            "title": "週末を通じてAPIを利用した運動量の測定APP開発チームプロジェクト進行しました。",
+            "title": [
+              "週末を通じてAPIを利用した運動量の測定APP開発チームプロジェクト進行しました。"
+            ],
             "subTitle": [
               "React-Native, CSS in JS, ExpressJS 사용"
             ]
@@ -494,39 +541,11 @@
         "title": "SPA基盤のグルメサイト製作",
         "descriptions": [
           {
-            "title": "週末を通じてgoogle APIを利用した位置基盤WEBアプリケーション製作しました。",
+            "title": [
+              "週末を通じてgoogle APIを利用した位置基盤WEBアプリケーション製作しました。"
+            ],
             "subTitle": [
               "Vue、Vuex、ExpressJS、Firebase使用"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "勉強会",
-        "descriptions": [
-          {
-            "title": "SpringBoot 勉強会",
-            "subTitle": [
-              "SpringBootを利用したRestAPI設計",
-              "Springアプリケーションコンテキストやコンポーネントスキャンの理解"
-            ]
-          },
-          {
-            "title": "React & Node 勉強会",
-            "subTitle": [
-              "React, Redux, GraphQL(apollo), NodeJS(expressJs), CSS in JS(emotion, styled-components), NoSQL(mongoDB), Docker 使用"
-            ]
-          },
-          {
-            "title": "Markup 勉強会",
-            "subTitle": [
-              "BEM, SCSS, Webpack 使用"
-            ]
-          },
-          {
-            "title": "アルゴリズム 勉強会",
-            "subTitle": [
-              "python3, Javascript 使用"
             ]
           }
         ]

@@ -3,10 +3,6 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import styles from './style.module.scss';
 
-const imagesCaption = [
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-];
-
 const ImageBox = ({ images }) => {
   const [photoIndex, setPhotoIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
@@ -32,8 +28,7 @@ const ImageBox = ({ images }) => {
                 justifyContent: 'space-between',
               }}
             >
-              <p>{imagesCaption[0].slice(0, 65).concat('...')}</p>
-              <p>
+              <p className={styles.modalFont}>
                 {photoIndex + 1} of {images.length}
               </p>
             </div>

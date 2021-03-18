@@ -10,11 +10,12 @@ import Section from '../layouts/Section';
 import ImageBox from '../ImageBox/ImageBox';
 import lapOne from '../../assets/images/lap-analysis.png';
 import lapTwo from '../../assets/images/lap-login.png';
+import lapThree from '../../assets/images/lap-chart.png';
 import rtOne from '../../assets/images/rt-dui.png';
 import rtTwo from '../../assets/images/rt-calendar.png';
 import rtThree from '../../assets/images/rt-hurusato.png';
 
-const FIRST_IMG_LIST = [lapOne, lapTwo];
+const FIRST_IMG_LIST = [lapOne, lapTwo, lapThree];
 const SECOND_IMG_LIST = [rtOne, rtTwo, rtThree];
 
 const Careers = ({ className }) => {

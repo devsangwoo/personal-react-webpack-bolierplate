@@ -445,15 +445,56 @@
     ]
   },
   "personals": {
-    "title": "프로젝트 & 스터디",
+    "title": "스터디 & 프로젝트",
     "list": [
       {
         "title": "",
         "descriptions": [
           {
-            "title": "주말과 평일 오후 시간을 이용해 프로젝트 참여 및 스터디를 통해 다방면의 사람들과 커뮤니케이션을 하며 성장을 위해 노력하고 있습니다.",
+            "title": [
+              "주말과 평일 오후 시간을 이용해 프로젝트 참여 및 스터디를 통해 ",
+              "다방면의 사람들과 커뮤니케이션을 하며 성장을 위해 노력하고 있습니다."
+            ],
             "subTitle": [
               ""
+            ]
+          }
+        ]
+      },
+      {
+        "title": "스터디",
+        "descriptions": [
+          {
+            "title": [
+              "SpringBoot 스터디"
+            ],
+            "subTitle": [
+              "SpringBoot를 이용한 RestAPI 설계",
+              "Spring 애플리케이션 컨텍스트 및 컴포넌트 스캔의 이해"
+            ]
+          },
+          {
+            "title": [
+              "React & Node 스터디"
+            ],
+            "subTitle": [
+              "React, Redux, GraphQL(apollo), NodeJS(expressJs), CSS in JS(emotion, styled-components), NoSQL(mongoDB), Docker 사용"
+            ]
+          },
+          {
+            "title": [
+              "Markup 스터디"
+            ],
+            "subTitle": [
+              "BEM, SCSS, Webpack 사용"
+            ]
+          },
+          {
+            "title": [
+              "알고리즘 스터디"
+            ],
+            "subTitle": [
+              "파이썬, 자바스크립트 사용"
             ]
           }
         ]
@@ -462,7 +503,9 @@
         "title": "SPA기반 반응형 이력서 페이지 제작",
         "descriptions": [
           {
-            "title": "이력서 관리를 위해 라이브러리 의존성이 적은 React기반의 자신의 이력서 페이지를 제작하였습니다.",
+            "title": [
+              "이력서 관리를 위해 라이브러리 의존성이 적은 React기반의 자신의 이력서 페이지를 제작하였습니다."
+            ],
             "subTitle": [
               "React, Sass, CSS Modules"
             ]
@@ -473,7 +516,9 @@
         "title": "커뮤니티 사이트",
         "descriptions": [
           {
-            "title": "주말을 통해 커뮤니티 사이트 제작에 기여했습니다.",
+            "title": [
+              "주말을 통해 커뮤니티 사이트 제작에 기여했습니다."
+            ],
             "subTitle": [
               "React, GraphQL, NestJs 기반의 프로젝트 구성"
             ]
@@ -484,7 +529,9 @@
         "title": "하이브리드 운동 MOBILE APP",
         "descriptions": [
           {
-            "title": "주말을 통해 API를 이용한 운동량 측정 APP개발 팀 프로젝트 진행하였습니다.",
+            "title": [
+              "주말을 통해 API를 이용한 운동량 측정 APP개발 팀 프로젝트 진행하였습니다."
+            ],
             "subTitle": [
               "React-Native, CSS in JS, ExpressJS 사용"
             ]
@@ -495,39 +542,11 @@
         "title": "SPA기반의 맛집 웹사이트 제작",
         "descriptions": [
           {
-            "title": "주말을 통해 google API를 이용한 위치기반 WEB어플리케이션 제작하였습니다.",
+            "title": [
+              "주말을 통해 google API를 이용한 위치기반 WEB어플리케이션 제작하였습니다."
+            ],
             "subTitle": [
               "Vue, Vuex, ExpressJS, Firebase 사용"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "스터디",
-        "descriptions": [
-          {
-            "title": "SpringBoot 스터디",
-            "subTitle": [
-              "SpringBoot를 이용한 RestAPI 설계",
-              "Spring 애플리케이션 컨텍스트 및 컴포넌트 스캔의 이해"
-            ]
-          },
-          {
-            "title": "React & Node 스터디",
-            "subTitle": [
-              "React, Redux, GraphQL(apollo), NodeJS(expressJs), CSS in JS(emotion, styled-components), NoSQL(mongoDB), Docker 사용"
-            ]
-          },
-          {
-            "title": "Markup 스터디",
-            "subTitle": [
-              "BEM, SCSS, Webpack 사용"
-            ]
-          },
-          {
-            "title": "알고리즘 스터디",
-            "subTitle": [
-              "파이썬, 자바스크립트 사용"
             ]
           }
         ]
