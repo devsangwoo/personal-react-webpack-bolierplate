@@ -1,0 +1,92 @@
+.switchContainer {
+    display: inline-block;
+height: 100%;
+  }
+  .checkboxLabel {
+    margin: 10px;
+    cursor: pointer;
+  }
+  .wrapper {
+    display: flex;
+
+    align-items: center;
+  }
+  
+  .switch {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    height: 24px;
+    width: 50px;
+    cursor: pointer;
+
+    background-color: #dddddd;
+    user-select: none !important;
+
+    border-radius: 17px;
+ 
+  }
+  .switch:hover {
+    background-color: #c1bebe;
+  }
+  
+  .isChecked {
+    background-color: #1778f2;
+   
+  }
+
+  .isCheckedLabel {
+    color: #1778f2;
+  }
+  
+  .isChecked:hover {
+    background-color: #1778f2;
+  }
+  
+  .circle {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    transform: translateX(3px);
+
+    background-color: white;
+    border-radius: 100%;
+    overflow: hidden;
+
+    transition: all 0.2s ease 0ms;
+ 
+ 
+   
+  }
+  
+  
+  .isCheckedCircle {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    transform: translateX(29px);
+
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 200ms ease-in;
+ 
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.9);
+    border-image: initial;
+  }
+  

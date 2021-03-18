@@ -13,7 +13,7 @@ const Skills = ({ className }) => {
   const { skills } = useDB();
 
   const Description = ({ title, subTitle }) => (
-    <ul className={styles.description}>
+    <ul key={title} className={styles.description}>
       <li className={styles.title}>{title}</li>
       <div className={styles.subTitles}>
         {subTitle.map((st, index) => (
@@ -26,7 +26,7 @@ const Skills = ({ className }) => {
   );
 
   const Skill = ({ title, descriptions }) => (
-    <Section className={styles.skill}>
+    <Section key={title} className={styles.skill}>
       <span className={styles.title}>{title}</span>
       <div className={styles.descriptions}>
         {descriptions.map(description => Description(description))}

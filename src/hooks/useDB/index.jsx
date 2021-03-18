@@ -1,20 +1,36 @@
-import { useState } from 'react'
+import { useContext, useEffect, useState } from 'react';
 
-import DB from '../../DB.json'
+import translationJA from '../../../public/locales/jp/DB.json';
+import translationKO from '../../../public/locales/ko/DB.json';
+
+import { LanguageContext } from '../../context/LanguageContextWrapper';
 
 function useDB() {
-  const [ careers ] = useState(DB.careers)
-  const [ config ] = useState(DB.config)
-  const [ skills ] = useState(DB.skills)
-  const [ personals ] = useState(DB.personals)
-  const [ hobby ] = useState(DB.hobby)
-  const [ speaker ] = useState(DB.speaker)
-  const [ activities ] = useState(DB.activities)
-  const [ awards ] = useState(DB.awards)
-  const [ students ] = useState(DB.students)
+  const { isChecked } = useContext(LanguageContext);
+
+  const [DB, setDB] = useState(translationJA);
+
+  useEffect(() => {
+    isChecked ? setDB(translationKO) : setDB(translationJA);
+  }, [isChecked]);
+
+  const {
+    careers,
+    introduce,
+    personals,
+    config,
+    skills,
+    awards,
+    students,
+  } = DB;
+
+  const [hobby] = useState(DB.hobby);
+  const [speaker] = useState(DB.speaker);
+  const [activities] = useState(DB.activities);
 
   return {
     careers,
+    introduce,
     config,
     skills,
     personals,
@@ -22,8 +38,8 @@ function useDB() {
     speaker,
     activities,
     awards,
-    students
-  }
+    students,
+  };
 }
 
-export default useDB
+export default useDB;

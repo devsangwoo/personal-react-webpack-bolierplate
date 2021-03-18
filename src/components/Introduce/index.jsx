@@ -10,43 +10,33 @@ import EmailIcon from '../../assets/email.svg';
 import GithubIcon from '../../assets/github.svg';
 import PhoneIcon from '../../assets/phone.svg';
 import BlogIcon from '../../assets/blog.svg';
-import logoImage from '../../assets/logoImage.png';
 
 const Introduce = ({ className }) => {
   const classProps = classNames(styles.introduce, className);
-  const { config } = useDB();
+  const { introduce, config } = useDB();
 
   return (
-    <Card className={classProps} title="이력서">
+    <Card className={classProps} title={config.title} switchBtn={true}>
       <div className={styles.titleWrapper}>
         <div>
-          <div className={styles.title1}>웹 프론트엔드 엔지니어</div>
-          <div className={styles.title2}>조상우</div>
+          <div className={styles.title1}>{introduce.title}</div>
+          <div className={styles.title2}>{introduce.name}</div>
         </div>
       </div>
 
       <div className={styles.descriptions}>
-        <div className={styles.title3}>
-          ✅ 엔드 유저 입장에서 UI/UX를 고려하는 프론트엔드 엔지니어
-        </div>
-        <p className={styles.description}>
-          유저 입장에서 만족할 수 있는 UI 설계를 목표하고 있습니다.
-        </p>
-        <div className={styles.title3}>
-          ✅ 비즈니스 로직과 가치를 이해하려고 노력하는 엔지니어
-        </div>
-        <p className={styles.description}>
-          다양한 분야와 규모의 회사에서의 경험을 통해 비지니스를 신속히
-          이해하고,
-          <br />
-          주도적으로 프로덕트를 개선하는것을 목표로 하고 있습니다
-        </p>
-        <div className={styles.title3}>✅ 성장을 위해 멈추지 않는 엔지니어</div>
-        <p className={styles.description}>
-          개발자의 커리어를 시작한 이후로 한번도 쉬지 않고 개발을 하면서,
-          <br />
-          개발자로서의 성장을 끊임없이 도전하고 있습니다.
-        </p>
+        {introduce.description.map((des, idx) => {
+          return (
+            <React.Fragment key={'introduce' + des + idx}>
+              <div className={styles.title3}>✅ {des}</div>
+              <p className={styles.description}>
+                {introduce.subdescription[idx][0]}
+                <br />
+                {introduce.subdescription[idx][1]}
+              </p>
+            </React.Fragment>
+          );
+        })}
       </div>
 
       <div className={styles.iconWrap}>

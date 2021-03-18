@@ -51,7 +51,7 @@ module.exports = (env, argv) => {
           type: 'javascript/auto',
         },
         {
-          test: /\.(s|c)css$/,
+          test: /\.(sass|scss|css)$/,
           exclude: /\.module\.(scss|sass)$/,
           use: [
             {

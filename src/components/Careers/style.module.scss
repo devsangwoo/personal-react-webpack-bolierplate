@@ -3,6 +3,11 @@
   height: auto;
   box-sizing: border-box;
 
+  & .imgTitle {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+
   & .career {
     li {
       line-height: 2.0;

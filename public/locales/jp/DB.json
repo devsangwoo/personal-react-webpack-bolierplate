@@ -1,0 +1,536 @@
+{
+  "config": {
+    "title": "履歴書",
+    "github": "https://github.com/devsangwoo",
+    "email": "sangwoodev@gmail.com",
+    "phone": "010-3668-0476",
+    "blog1": "https://www.linkedin.com/in/sangwoo-dev"
+  },
+  "introduce": {
+    "title": "WEBフロントエンドエンジニア",
+    "name": "趙  祥佑(ジョ サンウ)",
+    "description": [
+      "エンドユーザの立場でUI/UXを考慮するフロントエンドエンジニア",
+      "ビジネスロジックと価値を理解しようと努力するエンジニア",
+      "成長のために止まらないエンジニア"
+    ],
+    "subdescription": [
+      [
+        "ユーザの立場から、満足できるUI設計を目標としています。",
+        ""
+      ],
+      [
+        "多様な分野と規模の会社での経験を通じてビジネスを迅速に理解して、",
+        "主導的にプロダクトを改善することを目標にしています。"
+      ],
+      [
+        "開発者のキャリアを始めて以来、一度も休まず開発をしながら、",
+        "開発者としての成長を絶えず挑戦しています。"
+      ]
+    ]
+  },
+  "careers": {
+    "title": "経歴",
+    "list": [
+      {
+        "name": "Laplace Technologies Inc",
+        "department": "FE開発部署",
+        "position": "アプリケーションアンジニア",
+        "startDate": "2020.12",
+        "endDate": "現在",
+        "description": [
+          "トレーディング、Eコマース分析プラットフォームのフロントアンド開発を担当しています。",
+          "新規サービスをリリースするため、共用DashBoard開発、共用コンポーネント開発及びデザインまで担当し、設計しています。"
+        ],
+        "projects": [
+          {
+            "name": "プラットフォームページ開発",
+            "description": [
+              "短期間で2つのプラットフォームプロトタイプリリースを実施しています。"
+            ],
+            "startDate": "2020.12",
+            "endDate": "2021.03(現在)",
+            "which": [
+              "データ視覚化ライブラリを利用したDashBoard開発",
+              "各サービス別メニューページ設計及びプロジェクト設計",
+              "Amplifyサーバーレスフレームワークによるバックアンド接続"
+            ],
+            "techStacks": [
+              "React(Hooks)",
+              "AWS Amplify",
+              "GraphQl"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "株式会社パソナテック",
+        "department": "ECサイトFE開発部署",
+        "position": "Application Composer",
+        "startDate": "2020.03",
+        "endDate": "2020.12",
+        "description": [
+          "日本最大規模のECサイトであるR社の多様なサービスのWEBフロントエンドの開発を進めています。",
+          "各サービス別レガシーコードリペクトリン及び保守、新規サービスフロントエンドの構築を担当しています。"
+        ],
+        "projects": [
+          {
+            "name": "社内共用UIコンポーネント開発",
+            "description": [
+              "ECサイトの共用UIコンポーネントを開発しました。"
+            ],
+            "startDate": "2020.04",
+            "endDate": "2020.12",
+            "which": [
+              "TypeScript言語で実装",
+              "StorybookベースのSPAコンポーネント(React)実装",
+              "GitFlowを利用して協業及びコードレビュー"
+            ],
+            "techStacks": [
+              "React(Class)",
+              "TypeScript",
+              "Storybook",
+              "Less",
+              "CSS Modules",
+              "Jenkins"
+            ]
+          },
+          {
+            "name": "LPページ開発",
+            "description": [
+              "TemplateエンジンベースのLPページ開発しました。"
+            ],
+            "startDate": "2020.11",
+            "endDate": "2020.12",
+            "which": [
+              "SassとPugを通じたマークアップ開発",
+              "BootStrapを利用したResponsive Web実装",
+              "Webpackベースのプロジェクトの構築"
+            ],
+            "techStacks": [
+              "Webpack",
+              "Sass",
+              "jQuery",
+              "Pug",
+              "BootStrap4"
+            ]
+          },
+          {
+            "name": "商品検索ページ開発",
+            "description": [
+              "ECサイト内商品検索の新規ページを開発しました。 "
+            ],
+            "startDate": "2020.7",
+            "endDate": "2020.10",
+            "which": [
+              "Storybookベースの検索UIコンポーネント開発",
+              "全域storeを使用したstate管理",
+              "ES6基にCSVファイルをJSONに変換するコンバーター具現",
+              "OSSを利用して大量の商品データのレンダリング速度の改善"
+            ],
+            "techStacks": [
+              "React",
+              "React Hooks",
+              "TypeScript",
+              "Sass",
+              "Storybook"
+            ]
+          },
+          {
+            "name": "お知らせページおよびカレンダー開発",
+            "description": [
+              "新規のお知らせページのKanbanスタイルカレンダー開発しました。"
+            ],
+            "startDate": "2020.03",
+            "endDate": "2020.06",
+            "which": [
+              "CSS Modulesを利用したお知らせページのスタイリング",
+              "Reactを利用したカレンダーコンポーネント開発",
+              "ライブラリカスタマイズを通じたパフォーマンス改善"
+            ],
+            "techStacks": [
+              "React",
+              "React Hooks",
+              "TypeScript",
+              "CSS Modules"
+            ]
+          },
+          {
+            "name": "イベントページ",
+            "description": [
+              "Vanila JS基盤の新規イベントページを製作しました。"
+            ],
+            "startDate": "2020.04",
+            "endDate": "2020.05",
+            "which": [
+              "Vanila JSを利用したCarousal機能の実装",
+              "cross-browsingやデバイス対応設計"
+            ],
+            "techStacks": [
+              "HTML/CSS",
+              "Vanila JS"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "アデコ株式会社",
+        "department": "デジタル広告審査部",
+        "position": "QA",
+        "startDate": "2019.08",
+        "endDate": "2020.02",
+        "description": [
+          ""
+        ],
+        "details": [
+          {
+            "name": " ",
+            "description": [
+              "Google Ads プラットフォームのデジタル広告審査",
+              "広告主に問い合わせに対する対応と改善業務"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ジェンパクト株式会社",
+        "department": "BPO事業部",
+        "position": "QA",
+        "startDate": "2018.07",
+        "endDate": "2019.07",
+        "description": [
+          ""
+        ],
+        "details": [
+          {
+            "name": " ",
+            "description": [
+              "facebook プラットフォームのデジタルコンテンツ審査",
+              "グローバルチームと連携して新しい政策製作"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "aT韓国農水産食品流通公社",
+        "department": "海外事業部",
+        "position": "青年開拓団",
+        "startDate": "2017.04",
+        "endDate": "2017.08",
+        "description": [
+          ""
+        ],
+        "details": [
+          {
+            "name": " ",
+            "description": [
+              "南アフリカ現地事務所や連絡網の構築",
+              "現地バイヤーミーティングや市場調査・リサーチ業務"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "students": {
+    "title": "学歴",
+    "description": null,
+    "list": [
+      {
+        "title": "2016.08 全羅北道大学商科大学貿易学科卒業",
+        "url": null
+      },
+      {
+        "title": "2009.02 全州ドンアム高校卒業",
+        "url": null
+      }
+    ]
+  },
+  "awards": {
+    "title": "資格及び賞",
+    "description": null,
+    "list": [
+      {
+        "title": "2019.11 情報処理技師取得",
+        "url": null
+      },
+      {
+        "title": "2018.12 ジェンパクト株式会社から優秀社員賞受賞",
+        "url": null
+      },
+      {
+        "title": "2018.09 JLPT N1取得",
+        "url": null
+      },
+      {
+        "title": "2018.03 TOEIC 930点取得",
+        "url": null
+      },
+      {
+        "title": "2017.09 aT韓国農水産食品流通公社からプロジェクト優秀賞受賞",
+        "url": null
+      }
+    ]
+  },
+  "skills": {
+    "title": "技術",
+    "list": [
+      {
+        "title": "HTML/CSS",
+        "descriptions": [
+          {
+            "title": "Semantic Markupを大事に思っており、HTMLを作成するときに意味を付与します。",
+            "subTitle": [
+              "Semanticの規則を守りマークアップを進行しようと努力します。"
+            ]
+          },
+          {
+            "title": "CSS stylingを最大限簡単で、開発者に友好的に組めるように努力します。",
+            "subTitle": [
+              "2つ以上のNestingを止揚します。",
+              "複雑な文法をstyleで盛り込もうとしません。  CSSを開発する際にtagらを各要素別に区分して容易に見分けることができるようにコーディングします。"
+            ]
+          },
+          {
+            "title": " CSS in JS方式のstylingを使いこなしています。",
+            "subTitle": [
+              "emotionやstyled-componentsのようなCSS in JSを使用した経験があり、慣れてきました。"
+            ]
+          },
+          {
+            "title": "SASS(SCSS)と同じCSS Preprocessorを使用することができます。",
+            "subTitle": [
+              "CSS ModuleとSCSS組合を好みます。LESS、Stylus-componentも適用することができます。"
+            ]
+          },
+          {
+            "title": "多くのブラウザを支援することができます。",
+            "subTitle": [
+              "Chrome、Safari、Firefoxなど、様々なブラウザを支援するアプリを作ることができます。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "JavaScript",
+        "descriptions": [
+          {
+            "title": "ES2015以降のJavaScript文法に慣れてきました。",
+            "subTitle": [
+              "JavaScript ES2015以上の文法を上手に作成したり、読み取れます。"
+            ]
+          },
+          {
+            "title": "Vanilla JavaScriptを通じてDOMを扱うのに慣れてきました。",
+            "subTitle": [
+              "Jquery基盤のレガシーコード保守経験があります。"
+            ]
+          },
+          {
+            "title": "Reduce、Mapのような高次関数を積極的に使用します。",
+            "subTitle": []
+          },
+          {
+            "title": "Typescriptをプロジェクトに適用し、相続やプロジェクトの構造を作るのに慣れてきました。",
+            "subTitle": []
+          },
+          {
+            "title": "非同期作業をやってるけど慣れてきました。(promise、async await)",
+            "subTitle": []
+          }
+        ]
+      },
+      {
+        "title": "SPA Framework",
+        "descriptions": [
+          {
+            "title": "設計時コンポーネントを分割したり、プロジェクトに合わせて構造を作成します。",
+            "subTitle": []
+          },
+          {
+            "title": "React、Vueコンポーネントライフサイクルを理解して適切に活用します。",
+            "subTitle": []
+          },
+          {
+            "title": "React hooksを使用して適切にデータを分配します。",
+            "subTitle": []
+          },
+          {
+            "title": "効率的なデータ構造を作成して保守容易にFolder Structureを構成します。",
+            "subTitle": []
+          },
+          {
+            "title": "Redux、Vuexのような状態管理のパタンについて使用してみており、独立的なコンポーネントを志向してDepthを極力減らす構成を好みます。",
+            "subTitle": []
+          },
+          {
+            "title": "ContainerとPresentationalの違いを認知して構造をサーバでデータを受けることとデータを振り掛けてくれている部分を明確に作成します。",
+            "subTitle": []
+          }
+        ]
+      },
+      {
+        "title": "API & Server",
+        "descriptions": [
+          {
+            "title": "GraphQLを利用することができます。",
+            "subTitle": [
+              "GraphQLを利用したクライアント開発経験があります。"
+            ]
+          },
+          {
+            "title": "RESTful APIを作成することができます。",
+            "subTitle": [
+              "Express.js、Nest.jsを活用してみた経験があります。"
+            ]
+          },
+          {
+            "title": "Routing規則を適切に使い、経路を作成します。",
+            "subTitle": []
+          },
+          {
+            "title": "JWT認証を使用してブラウザのクッキーに保存し、セッションの処理を行うことができます。",
+            "subTitle": []
+          }
+        ]
+      },
+      {
+        "title": "DevOps",
+        "descriptions": [
+          {
+            "title": "AWS EC2、S3などのインフラの要素を使用してみた経験があります。",
+            "subTitle": []
+          },
+          {
+            "title": "Jenkins、Dockerを使用してみた経験があります。",
+            "subTitle": []
+          }
+        ]
+      },
+      {
+        "title": "Project Management",
+        "descriptions": [
+          {
+            "title": "Gitを通じて、上手にバージョン管理ができます。",
+            "subTitle": [
+              "git flowを会社から適用してみた経験があります。"
+            ]
+          },
+          {
+            "title": "JIRAとConfluenceを利用してチケットの管理や技術、ドキュメント管理ができます。",
+            "subTitle": [
+              "チケット基盤のブランチの管理や技術、ドキュメント作成をしてみた経験があります。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Language",
+        "descriptions": [
+          {
+            "title": "英語",
+            "subTitle": [
+              "業務で主に英語で会話し、英文ドキュメント読解が可能であり、英語圏地域でリサーチ及び営業経験があります。"
+            ]
+          },
+          {
+            "title": "日本語",
+            "subTitle": [
+              "日本語でビジネス会話が可能で、ドキュメントを作成することが可能です。"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "personals": {
+    "title": "プロジェクト & 勉強会",
+    "list": [
+      {
+        "title": "",
+        "descriptions": [
+          {
+            "title": "週末や平日の午後時間を利用してプロジェクト参加や勉強会を通じて多方面の人とコミュニケーションをしての成長に向けて努力しています。",
+            "subTitle": [
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SPA基盤反応型の履歴書ページ制作",
+        "descriptions": [
+          {
+            "title": "履歴書管理のためにライブラリ依存性が少ないReact基盤の自分の履歴書ページを製作しました。",
+            "subTitle": [
+              "React, Sass, CSS Modules"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "コミュニティサイト",
+        "descriptions": [
+          {
+            "title": "週末を通じてコミュニティサイト製作に貢献しました。",
+            "subTitle": [
+              "React、GraphQL、NestJsベースのプロジェクト構成"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ハイブリッド運動MOBILE APP",
+        "descriptions": [
+          {
+            "title": "週末を通じてAPIを利用した運動量の測定APP開発チームプロジェクト進行しました。",
+            "subTitle": [
+              "React-Native, CSS in JS, ExpressJS 사용"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SPA基盤のグルメサイト製作",
+        "descriptions": [
+          {
+            "title": "週末を通じてgoogle APIを利用した位置基盤WEBアプリケーション製作しました。",
+            "subTitle": [
+              "Vue、Vuex、ExpressJS、Firebase使用"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "勉強会",
+        "descriptions": [
+          {
+            "title": "SpringBoot 勉強会",
+            "subTitle": [
+              "SpringBootを利用したRestAPI設計",
+              "Springアプリケーションコンテキストやコンポーネントスキャンの理解"
+            ]
+          },
+          {
+            "title": "React & Node 勉強会",
+            "subTitle": [
+              "React, Redux, GraphQL(apollo), NodeJS(expressJs), CSS in JS(emotion, styled-components), NoSQL(mongoDB), Docker 使用"
+            ]
+          },
+          {
+            "title": "Markup 勉強会",
+            "subTitle": [
+              "BEM, SCSS, Webpack 使用"
+            ]
+          },
+          {
+            "title": "アルゴリズム 勉強会",
+            "subTitle": [
+              "python3, Javascript 使用"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

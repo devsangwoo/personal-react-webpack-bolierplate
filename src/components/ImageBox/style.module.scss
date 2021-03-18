@@ -1,0 +1,18 @@
+.wrapper {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalImgContainer {
+    width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.modalImg {
+    width: 270px;
+    height: 200px;
+    object-fit: contain;
+}
